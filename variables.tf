@@ -96,3 +96,7 @@ variable "opsgenie_responding_teams" {
   description = "Set of Opsgenie teams to be added as responders"
   default = []
 }
+
+variable "sns_topic_kms_master_key_id" {
+  default = null
+}
